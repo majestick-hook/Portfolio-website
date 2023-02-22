@@ -6,26 +6,26 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 .bg{
-    width: 325px;
-    height: 325px;
+    width: 230px;
+    height: 232px;
     background-color: rgb(41 41 43);
     box-sizing: border-box;
     border-radius: 360%;
-    position: fixed;
+    position: absolute;
     display: inline-block;
-    margin-left: 510px;
-    margin-top: -15px;
+    margin-left: 434px;
+    margin-top: -18px;
     z-index: -1;
 }
 
 body::before{
     content: "";
     background: url(profile.png) no-repeat center center/cover;
-    width: 215px;
-    height: 350px;
-    position: fixed;
+    width: 172px;
+    height: 285px;
+    position: absolute;
     top: 71px;
-    left: 558px;
+    left: 462px;
     z-index: 2;
     opacity: 1;
 }
@@ -38,19 +38,20 @@ body::before{
 }
 .nav li{
     list-style: none;
-    margin: 5px 20px;
-    padding: 10px 15px;
+    margin: 5px 10px;
+    padding: 10px 14px
     
 }
 .nav li a{
     text-decoration: none;
     color: white;
+    font-size: 13px;
 }
 .nav li a.active,
 .nav li a:hover {
             text-decoration: none;
             color: #ffffff;
-            font-size: 18px;
+            font-size: 15px;
             font-weight: bold;
             transition-duration: 0.5s;
         }
@@ -78,10 +79,10 @@ body::before{
 }
 .half2{
      background-color: rgb(41 41 43) ;
-     height: 45%;
+     height: 70%;
      position: absolute;
      width: 100%;
-    bottom: 0px;
+    top: 350px;
 }
 .container{
     /* border: 2px solid; */
@@ -90,7 +91,7 @@ body::before{
     height: 400px;
     position: absolute;
     margin-left: 120px;
-    margin-top: 15px;
+    margin-top: 3px;
 }
 .box{
     color: #fff;
@@ -99,15 +100,15 @@ body::before{
     z-index: 1;
 }
 .box1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .box2{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
 }
 .box3{
     width: 200px;
-    height: 10px;
+    height: 5px;
     border-radius: 15px;
     background-color: rgb(238, 144, 4);
     margin: 10px 0px;
@@ -115,7 +116,7 @@ body::before{
 .box4{
     font-size: 15px;
     width: 300px;
-    margin: 15px 0px;
+    /* margin: 15px 0px; */
 }
 .container_left{
     /* border: 2px solid; */
@@ -123,20 +124,21 @@ body::before{
     flex-direction: column;
     height: 400px;
     position: absolute;
-    margin-left: 795px;
-    margin-top: 0px;
+    margin-left: 637px;
+    margin-top: 10px;
 }
 .box1_left{
-    font-size: 20px;
+    font-size: 14px;
+    margin: 10px 0px;
 }
 .box2_left{
-    font-size: 15px;
+    font-size: 12px;
     width: 250px;
 }
 .box3_left a{
     color:  rgb(238, 144, 4);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 12px;
     cursor: pointer;
 }
 .box4_left{
@@ -153,8 +155,8 @@ body::before{
 .social{
     background-color: rgb(64 64 85);
     width: 80%;
-    height: 95px;
-    margin-top: 300px;
+    height: 75px;
+    margin-top: 230px;
     margin-left: 10%;
     position: absolute;
     display: flex;
@@ -163,14 +165,78 @@ body::before{
 }
 .media{
     width: 20%;
-    height: 65px;
+    height: 50px;
     background-color:rgb(41 41 43);
     /* border: 2px solid; */
     margin: auto;
 }
 .media img{
-    width: 90px;
+    width: 80px;
     margin-left: 25%;
     padding: 10px;
-    height: 35px;
+    height: 30px;
+}
+.bottom_left{
+    display: flex;
+    width: 40%;   
+    flex-direction: column;
+    margin: 350px 115px;
+    position: absolute;
+    z-index: 1;
+    font-size: 7px;
+}
+.usp{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.needs{
+    font-size: 30px;
+    font-weight: bold;
+    width: 350px;
+}
+.dis{
+    font-size: 14px;
+    width: 350px;
+    margin: 10px 0px;
+}
+.num{
+    font-size: 25px;
+    color: rgb(238, 144, 4);
+
+}
+.quality{
+    font-size: 10px;
+}
+.un{
+    margin: 10px;
+}
+.un4{
+    padding-left: 15px;
+}
+.bi{
+    position: absolute;
+    top: 420px;
+    right: 500px;
+    z-index: 1;
+}
+.bi img{
+    width: 160px;
+    height: 80px;
+margin: 15px 0px;
+}
+.skill{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    z-index: 1;
+}
+.sf{
+    font-size: 25px;
+}
+.ss{
+    margin: 60px 0px;
+}
+.project{
+    font-size: 12px;
 }
