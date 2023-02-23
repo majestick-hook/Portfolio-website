@@ -246,7 +246,7 @@ margin: 15px 0px;
     font-size: 12px;
 }
 .ptn{
-    width: 500px;
+    width: 550px;
     border-top: 0.5px solid white;
     border-radius: 1px;
     margin: 110px;
@@ -255,7 +255,7 @@ margin: 15px 0px;
 }
 .pt{
     margin-top: 390px;
-    margin-left: 600px;
+    margin-left: 575px;
     position: absolute;
     z-index: 1;
 }
