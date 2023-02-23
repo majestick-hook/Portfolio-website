@@ -62,7 +62,7 @@ body::before{
     display: flex;
     position: absolute;
     right: 20px;
-    top: 5px;
+    top: 10px;
     
 }
 .right img{
