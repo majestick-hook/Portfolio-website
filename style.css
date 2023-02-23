@@ -79,7 +79,7 @@ body::before{
 }
 .half2{
      background-color: rgb(41 41 43) ;
-     height: 70%;
+     height: 80%;
      position: absolute;
      width: 100%;
     top: 400px;
@@ -140,6 +140,11 @@ body::before{
     text-decoration: none;
     font-size: 12px;
     cursor: pointer;
+}
+.box3_left img{
+    margin: 3px;
+    position: absolute;
+    width: 20px;
 }
 .box4_left{
     display: flex;
@@ -253,4 +258,14 @@ margin: 15px 0px;
     margin-left: 600px;
     position: absolute;
     z-index: 1;
+}
+.arr{
+    position: absolute;
+    z-index: 1;
+    right: 35px;
+    top: 450px;
+}
+.arrow{
+    margin: 80px;
+    width: 50px;
 }
