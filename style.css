@@ -79,7 +79,7 @@ body::before{
 }
 .half2{
      background-color: rgb(41 41 43) ;
-     height: 80%;
+     height: 130%;
      position: absolute;
      width: 100%;
     top: 400px;
@@ -160,6 +160,8 @@ body::before{
 .social{
     background-color: rgb(64 64 85);
     width: 80%;
+    box-shadow: 0px 0px 5px black;
+
     height: 75px;
     margin-top: 280px;
     margin-left: 10%;
@@ -185,7 +187,7 @@ body::before{
     display: flex;
     width: 40%;   
     flex-direction: column;
-    margin: 400px 115px;
+    margin: 450px 115px;
     position: absolute;
     z-index: 1;
     font-size: 7px;
@@ -221,7 +223,7 @@ body::before{
 }
 .bi{
     position: absolute;
-    top: 470px;
+    top: 520px;
     right: 500px;
     z-index: 1;
 }
@@ -232,7 +234,7 @@ margin: 15px 0px;
 }
 .skill{
     position: absolute;
-    top: 450px;
+    top: 500px;
     right: 200px;
     z-index: 1;
 }
@@ -254,7 +256,7 @@ margin: 15px 0px;
 
 }
 .pt{
-    margin-top: 390px;
+    margin-top: 440px;
     margin-left: 575px;
     position: absolute;
     z-index: 1;
@@ -263,9 +265,27 @@ margin: 15px 0px;
     position: absolute;
     z-index: 1;
     right: 35px;
-    top: 450px;
+    top: 500px;
 }
 .arrow{
     margin: 80px;
     width: 50px;
+}
+.c2{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    top: 1000px;
+}
+.bb{
+    height: 300px;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: rgb(54 53 67) ;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    flex-direction: column;
 }
