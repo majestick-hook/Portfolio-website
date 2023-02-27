@@ -5,6 +5,11 @@ body {
     color: white;
     font-family: 'Roboto Mono', monospace;
 }
+.b{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .bg{
     width: 330px;
     height: 330px;
@@ -13,19 +18,17 @@ body {
     border-radius: 360%;
     position: absolute;
     display: inline-block;
-    margin-left: 434px;
-    margin-top: -18px;
     z-index: -1;
 }
 
 body::before{
     content: "";
     background: url(profile.png) no-repeat center center/cover;
-    width: 200px;
-    height: 320px;
+    width: 250px;
+    height: 350px;
     position: absolute;
-    top: 120px;
-    left: 490px;
+    top: 70px;
+    left: 40%;
     z-index: 2;
     opacity: 1;
 }
@@ -77,7 +80,7 @@ body::before{
     color: #fff;
     font-weight: bold;
     display: inline-block;
-    margin:22px 116px;
+    margin:22px 10%;
     position:absolute  
 }
 .half2{
@@ -93,7 +96,7 @@ body::before{
     flex-direction: column;
     height: 400px;
     position: absolute;
-    margin-left: 120px;
+    margin-left: 10%;
     margin-top: 3px;
 }
 .box{
@@ -199,6 +202,7 @@ body::before{
     display: flex;
     flex-wrap: wrap;
     width: 300px;
+    margin-left: -12px;
 }
 .needs{
     font-size: 30px;
@@ -208,7 +212,7 @@ body::before{
 .dis{
     font-size: 14px;
     width: 350px;
-    margin: 10px 0px;
+    margin: 10px 10px;
 }
 .num{
     font-size: 25px;
@@ -305,7 +309,7 @@ margin: 15px 0px;
     background-color: rgb(41 41 43) ;
     border-radius: 360%;
 }
-.bb,div{
+.bb{
     margin:10px;
-    padding: 50p;
+    padding: 5px;
 }
