@@ -208,7 +208,7 @@ body::before{
 .usp{
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 420px;
     margin-left: -12px;
 }
 .needs{
@@ -227,10 +227,10 @@ body::before{
 
 }
 .quality{
-    font-size: 10px;
+    font-size: 14px;
 }
 .un{
-    margin: 10px;
+    margin: 20px 30px;
 }
 .un4{
     padding-left: 15px;
