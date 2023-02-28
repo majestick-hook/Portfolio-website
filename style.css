@@ -209,7 +209,9 @@ body::before{
     display: flex;
     flex-wrap: wrap;
     width: 420px;
-    margin-left: -12px;
+    margin-left: -15px;
+    /* border: 1px solid white; */
+    justify-content: space-between;
 }
 .needs{
     font-size: 40px;
@@ -217,8 +219,8 @@ body::before{
     width: 450px;
 }
 .dis{
-    font-size: 18px;
-    width: 450px;
+    font-size: 15px;
+    width: 370px;
     margin: 10px 0px;
 }
 .num{
@@ -230,7 +232,7 @@ body::before{
     font-size: 14px;
 }
 .un{
-    margin: 20px 30px;
+    margin: 20px 10px;
 }
 .un4{
     padding-left: 15px;
@@ -244,7 +246,7 @@ body::before{
 .bi img{
     width: 160px;
     height: 100px;
-margin: 20px 0px;
+    margin: 20px 0px;
 }
 .skill{
     position: absolute;
