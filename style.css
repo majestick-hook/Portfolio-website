@@ -109,7 +109,7 @@ body::before{
     font-size: 40px;
 }
 .box2{
-    font-size: 45px;
+    font-size: 52px;
     font-weight: bold;
 }
 .box3{
@@ -130,8 +130,8 @@ body::before{
     flex-direction: column;
     height: 400px;
     position: absolute;
-    margin-left: 700px;
-    margin-top: 10px;
+    margin-left: 57%;
+    margin-top: 12px;
 }
 .box1_left{
     font-size: 14px;
